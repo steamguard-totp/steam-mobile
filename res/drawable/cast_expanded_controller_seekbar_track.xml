@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="0x1020000" android:drawable="@drawable/cast_abc_scrubber_primary_mtrl_alpha" />
+    <item android:id="0x102000f">
+        <scale android:drawable="@drawable/cast_abc_scrubber_primary_mtrl_alpha" android:scaleWidth="100%" />
+    </item>
+    <item android:id="0x102000d">
+        <scale android:drawable="@drawable/cast_abc_scrubber_primary_mtrl_alpha" android:scaleWidth="100%" />
+    </item>
+</layer-list>

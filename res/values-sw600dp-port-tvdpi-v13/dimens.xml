@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">64.0dip</dimen>
+    <dimen name="navigation_drawer_group_height">60.0dip</dimen>
+    <dimen name="navigation_drawer_item_height">45.0dip</dimen>
+</resources>

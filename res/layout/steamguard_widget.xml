@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:padding="@dimen/widget_margin" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/widget_shape" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/widgetLogo" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/widget_bg" android:scaleType="fitStart" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/twofactor_back" android:padding="2dp" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:src="@drawable/twofactor_back" android:layout_weight="1.0" android:contentDescription="0x0" />
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout" android:padding="8dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="6.0">
+                <TextView android:textSize="16sp" android:textColor="@color/twofactorcode_thermometer_normal" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/twofactorcode_account_name" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:text="@string/widget_no_steamguard" android:layout_weight="1.3" />
+                <TextView android:textSize="@dimen/abc_text_size_large_material" android:textStyle="bold" android:textColor="@color/twofactorcode_normal" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/twofactorcode_code" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:text="@string/widget_no_code" android:layout_weight="2.0" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/twofactorcode_thermometer" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201">
+                    <ImageView android:id="@id/twofactor_thermo_img" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/twofactor_forward" android:padding="2dp" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:src="@drawable/twofactor_forward" android:layout_weight="1.0" android:contentDescription="0x0" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

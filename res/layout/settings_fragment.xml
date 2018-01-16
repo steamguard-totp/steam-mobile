@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/settings_background" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:id="@id/avatar_name_container" android:background="@color/primary_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2e01">
+        <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="4dp" android:layout_marginRight="4dp">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/avatar" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" />
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/avatar_frame" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/avatar_frame_offline" />
+        </FrameLayout>
+        <com.valvesoftware.android.steam.community.views.RobotoRegularTextView android:textSize="16sp" android:textStyle="bold" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/name" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1a01" android:text="" android:singleLine="true" />
+    </LinearLayout>
+    <ListView android:id="0x102000a" android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" android:divider="@color/almost_fully_transparent" android:dividerHeight="0px" />
+</LinearLayout>

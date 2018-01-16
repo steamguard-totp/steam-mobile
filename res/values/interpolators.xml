@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <interpolator name="mr_fast_out_slow_in">res/interpolator/mr_fast_out_slow_in.xml</interpolator>
+    <interpolator name="mr_fast_out_slow_in">res/interpolator-v21/mr_fast_out_slow_in.xml</interpolator>
+    <interpolator name="mr_linear_out_slow_in">res/interpolator/mr_linear_out_slow_in.xml</interpolator>
+    <interpolator name="mr_linear_out_slow_in">res/interpolator-v21/mr_linear_out_slow_in.xml</interpolator>
+</resources>

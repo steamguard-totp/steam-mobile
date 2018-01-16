@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/almost_fully_transparent" android:paddingLeft="10dp" android:paddingTop="2dp" android:paddingRight="10dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16sp" android:textColor="@color/settings_item_title" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/label" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1a02" android:text="YyYyYyYy" android:singleLine="true" />
+            <TextView android:textSize="12sp" android:textColor="@color/settings_item_detail" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/info" android:paddingRight="3dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1302" android:text="YyYyYyYy" android:singleLine="true" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/imageChevron" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1402" android:layout_height="UNKNOWN_DATA_0x1402" android:src="@drawable/table_cell_chevron_white" />
+            <CheckBox android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/setting_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:background="@color/navigation_section_title_underline" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x200" android:layout_marginTop="2sp" />
+</LinearLayout>

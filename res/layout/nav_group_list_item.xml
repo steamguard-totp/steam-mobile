@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/nav_list_item_selector" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090016">
+        <com.valvesoftware.android.steam.community.views.RobotoRegularTextView android:textSize="22sp" android:textColor="@color/primary_foreground" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/nav_item_name" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="ioupiou" android:singleLine="true" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/nav_item_notification_count_ctn" android:background="#5c7e10" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_toRightOf="@id/nav_item_name" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/nav_item_notification_count_envelope" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0xc01" android:layout_marginRight="8dp" android:src="@drawable/header_menu_notifications" />
+            <TextView android:textSize="14sp" android:textColor="#ffffff" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/nav_item_notification_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/group_expand_collapse_icon" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

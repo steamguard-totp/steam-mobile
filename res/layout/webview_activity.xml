@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/splitView_Contents" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textColor="@color/browser_bar_text" android:id="@id/webview_browser_location" android:background="@color/browser_bar_background" android:paddingLeft="5sp" android:paddingTop="2sp" android:paddingRight="5sp" android:paddingBottom="2sp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1602" />
+        <fragment android:id="@id/webview" android:layout_width="match_parent" android:layout_height="match_parent" class="com.valvesoftware.android.steam.community.fragment.WebViewFragment" />
+    </LinearLayout>
+</FrameLayout>

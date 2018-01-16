@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/mr_expandable_area" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/mr_dialog_area" android:background="?attr/MediaRouteControllerWindowBackground" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="horizontal" android:id="@id/mr_title_bar" android:paddingLeft="24dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?attr/mediaRouteControllerTitleTextStyle" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/mr_name" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x4801" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageButton android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/mr_close" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:src="?attr/mediaRouteCloseDrawable" android:contentDescription="@string/mr_controller_close_description" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/mr_custom_control" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/mr_default_control" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/mr_art" android:background="?attr/colorPrimary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@string/mr_controller_album_art" />
+            <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/mr_media_main_control" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/mr_playback_control" layout="@layout/mr_playback_control" />
+                    <View android:id="@id/mr_control_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" />
+                    <include android:id="@id/mr_volume_control" layout="@layout/mr_volume_control" />
+                </LinearLayout>
+                <android.support.v7.app.OverlayListView android:scrollbarStyle="outsideOverlay" android:id="@id/mr_volume_group_list" android:paddingTop="@dimen/mr_controller_volume_group_list_padding_top" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <include layout="@layout/abc_alert_dialog_button_bar_material" />
+    </LinearLayout>
+</FrameLayout>

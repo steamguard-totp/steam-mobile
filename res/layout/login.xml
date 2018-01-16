@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" community:orientation="vertical" community:layout_width="match_parent" community:layout_height="match_parent">
+    <com.valvesoftware.android.steam.community.views.SteamWebView community:id="@id/webview" community:layout_width="match_parent" community:layout_height="UNKNOWN_DATA_0x1" community:layout_weight="1.0" />
+    <com.valvesoftware.android.steam.community.fragment.TwoFactorCodeListView community:id="@id/login_twofactor_view" community:layout_width="match_parent" community:layout_height="UNKNOWN_DATA_0x8201" community:invisibleIfNoCodes="true" />
+</LinearLayout>

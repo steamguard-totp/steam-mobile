@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="steamguard_widget_info">res/xml/steamguard_widget_info.xml</xml>
+    <xml name="steamguard_widget_info">res/xml-v11/steamguard_widget_info.xml</xml>
+    <xml name="steamguard_widget_info">res/xml-v12/steamguard_widget_info.xml</xml>
+    <xml name="steamguard_widget_info">res/xml-v17/steamguard_widget_info.xml</xml>
+</resources>

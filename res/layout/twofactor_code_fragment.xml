@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_twofactorcode" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x8201">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/twofactor_back" android:padding="2dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/twofactor_back" android:layout_weight="1.0" android:contentDescription="0x0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="8.0">
+            <TextView android:textSize="50sp" android:textColor="@color/twofactorcode_normal" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/twofactorcode_code" android:paddingTop="0dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" />
+            <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.valvesoftware.android.steam.community.TwoFactorCodeThermometerView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/twofactorcode_thermometer" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1401" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="8.0">
+                <TextView android:textSize="10sp" android:textColor="@color/twofactorcode_valvetime" android:id="@id/twofactorcode_valvetime" android:paddingTop="0dp" android:paddingBottom="2dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/valvetime" android:singleLine="false" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="16sp" android:textColor="@color/twofactorcode_account_name" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/twofactorcode_account_name" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/twofactor_forward" android:padding="2dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/twofactor_forward" android:layout_weight="1.0" android:layout_alignParentRight="true" android:contentDescription="0x0" />
+    </LinearLayout>
+</merge>

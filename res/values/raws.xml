@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="a248eakamainet">res/raw/a248eakamainet.crt</raw>
+    <raw name="gtm_analytics">res/raw/gtm_analytics</raw>
+    <raw name="m">res/raw/m.wav</raw>
+    <raw name="symantec">res/raw/symantec.crt</raw>
+</resources>

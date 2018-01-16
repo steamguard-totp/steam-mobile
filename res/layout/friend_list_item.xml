@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/primary_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.valvesoftware.android.steam.community.views.RobotoRegularTextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/secondary_foreground" android:id="@id/label" android:background="@color/secondary_background" android:paddingLeft="8dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+    <LinearLayout android:background="@color/primary_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2e01">
+        <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="4dp" android:layout_marginRight="4dp">
+            <com.android.volley.toolbox.NetworkImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/avatar" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" />
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/avatar_frame" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/avatar_frame_offline" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/nameAndStatusContainer" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <com.valvesoftware.android.steam.community.views.RobotoRegularTextView android:textSize="16sp" android:textStyle="bold" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/name" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1a01" android:text="" android:singleLine="true" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.valvesoftware.android.steam.community.views.RobotoRegularTextView android:textSize="12sp" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1301" android:singleLine="true" />
+                <ImageView android:id="@id/mobileIcon" android:background="@drawable/ic_action_mobile" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0xf01" android:layout_height="UNKNOWN_DATA_0xf01" android:layout_toRightOf="@id/status" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/friendItemAreaAroundChatButton" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="match_parent"
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="match_parent" android:layout_alignParentRight="true">
+                    <ImageView android:id="@id/chatButton" android:background="@drawable/chat_button_offline" android:layout_width="UNKNOWN_DATA_0x2d01" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    <com.valvesoftware.android.steam.community.views.RobotoRegularTextView android:textSize="11sp" android:textStyle="bold" android:id="@id/unreadMessageCount" android:paddingRight="5dp" android:paddingBottom="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/imageChevron" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="4dp" android:src="@drawable/ic_action_keyboard_arrow_right" />
+            <com.valvesoftware.android.steam.community.views.RobotoRegularTextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@id/steamid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="TextView" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

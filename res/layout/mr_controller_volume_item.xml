@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:id="@id/volume_item_container" android:paddingLeft="24dp" android:paddingRight="60dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f09000b">
+        <TextView android:textAppearance="?attr/mediaRouteControllerSecondaryTextStyle" android:id="@id/mr_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/mr_volume_item_icon" android:layout_width="UNKNOWN_DATA_0x7f09000c" android:layout_height="UNKNOWN_DATA_0x7f09000c" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:src="?attr/mediaRouteAudioTrackDrawable" android:scaleType="fitCenter" />
+            <android.support.v7.app.MediaRouteVolumeSlider android:id="@id/mr_volume_slider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:maxHeight="40dp" android:minHeight="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

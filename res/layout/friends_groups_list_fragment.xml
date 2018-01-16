@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:id="@id/search_bar_placeholder" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.valvesoftware.android.steam.community.views.RobotoRegularTextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/chat_is_offline_notice" android:background="#660000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1902" android:text="@string/chat_is_offline" android:singleLine="true" />
+    <ListView android:id="0x102000a" android:layout_width="match_parent" android:layout_height="match_parent" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+</LinearLayout>

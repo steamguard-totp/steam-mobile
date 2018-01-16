@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/category_label" android:id="@id/search_progress_label" android:background="@color/secondary_background" android:paddingLeft="8sp" android:paddingTop="4sp" android:paddingBottom="4sp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/search_footer_buttons" android:background="@color/secondary_background" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/category_label" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/search_footer_button_prev" android:paddingLeft="8sp" android:paddingTop="4sp" android:paddingBottom="4sp" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="<<" android:layout_weight="1.0" />
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/category_label" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/search_footer_button_next" android:paddingTop="4sp" android:paddingRight="8sp" android:paddingBottom="4sp" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text=">>" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/search_results_fragment_placeholder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/search_footer_buttons">
+            <ListView android:id="0x102000a" android:layout_width="match_parent" android:layout_height="match_parent" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/top_border" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/fake_web_button_divider_1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <View android:background="@color/fake_web_button_divider_2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20sp" android:layout_marginTop="4sp" android:layout_marginRight="20sp" android:layout_marginBottom="4sp" android:layout_weight="8.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+            <TextView android:textSize="16sp" android:textColor="@color/fake_web_button_text" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/fake_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" />
+            <TextView android:textSize="16sp" android:textColor="@color/fake_web_button_detail_text" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/fake_button_detail" android:paddingBottom="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" />
+        </LinearLayout>
+        <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fake_next" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_border" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/fake_web_button_divider_1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <View android:background="@color/fake_web_button_divider_2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="global">res/menu/global.xml</menu>
+    <menu name="main">res/menu/main.xml</menu>
+    <menu name="options_menu">res/menu/options_menu.xml</menu>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/icon_search" app:id="@id/search" app:title="" app:showAsAction="ifRoom|collapseActionView" />
+</menu>
